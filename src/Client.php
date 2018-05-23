@@ -45,7 +45,7 @@ class Client
         return $this->send(new Request('GET', $url), $options);
     }
 
-    public function list($url = null, array $options = [])
+    public function list_req($url = null, array $options = [])
     {
         return $this->send(new Request('LIST', $url), $options);
     }
